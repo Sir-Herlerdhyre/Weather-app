@@ -65,7 +65,8 @@ button:hover {
 @media (max-width: 600px) {
   #weather-container {
     padding: 1.5rem;
-    width: 95%;
+    width: 80%;
+    height: auto:
   }
 
   input[type="text"] {
