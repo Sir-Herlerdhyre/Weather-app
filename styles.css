@@ -10,9 +10,10 @@ body {
 }
 
 #weather-container {
-  background: rgb(32, 32, 134);
-  max-width: 600px;
-  width: 90%
+  background: rgb(97, 97, 197);
+  /* max-width: 600px; */
+  width: auto;
+  height: auto;
   position: fixed;
   padding: 3rem;
   border-radius: 1rem;
@@ -64,8 +65,6 @@ button:hover {
 @media (max-width: 600px) {
   #weather-container {
     padding: 1.5rem;
-    width: 80%;
-    height: auto:
   }
 
   input[type="text"] {
