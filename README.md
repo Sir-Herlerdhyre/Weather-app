@@ -11,6 +11,7 @@ This is a simple yet functional Weather Application built using   HTML  ,   CSS 
 - 📡 Real-time data fetched from OpenWeatherMap API.
 - 🌡️ Displays temperature (in Celsius), weather condition, humidity, and wind speed.
 - ❌ Gracefully handles errors like empty input or invalid city.
+- ⌨️ Triggers weather search on Enter key press or Search button click
 - 💻 Responsive design for mobile and desktop.
 
 ---
