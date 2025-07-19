@@ -36,3 +36,14 @@ function getWeather() {
       ${error.message}</div>`;
     });
 }
+
+// Trigger getWeather() on Enter key press
+const cityinput = document.getElementById("city");
+
+function handleKeyPress(e) {
+  if (e.key === "Enter") {
+    getWeather();
+  }
+}
+
+cityinput.addEventListener("keydown", handleKeyPress);
